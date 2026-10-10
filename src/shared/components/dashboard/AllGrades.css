@@ -1,22 +1,22 @@
-.grades-box{
+.grades-box {
     min-height: 100vh;
 }
 
-.got-AB{
+.got-AB {
     background-color: var(--color-green);
 }
 
-.got-C{
+.got-C {
     background-color: var(--color-yellow);
 }
 
-.got-F{
+.got-F {
     background-color: var(--color-peach);
 }
-.no-grade{
+
+.no-grade {
     background-color: var(--color-gray);
 }
-
 
 .floatCSV {
     position: fixed;
@@ -27,22 +27,25 @@
     font-family: "Montserrat-ExtraBold";
     text-align: center;
     box-shadow: 2px 2px 3px #999;
-  }
+}
 
-.good-visitor{
+.good-visitor {
     background-color: var(--color-hover);
     font-family: "Poppins-ExtraBold";
     color: whitesmoke
 }
-.med--visitor{
+
+.med--visitor {
     background-color: var(--color-green);
     font-family: "Poppins-ExtraBold";
 }
- .no--visitor{
+
+.no--visitor {
     background-color: var(--color-peach);
     font-family: "Poppins-ExtraBold";
- }
-  .bad--visitor{
+}
+
+.bad--visitor {
     background-color: var(--color-yellow);
     font-family: "Poppins-ExtraBold";
-  }
+}

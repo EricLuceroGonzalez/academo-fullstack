@@ -121,8 +121,6 @@ const TableOfGrades = () => {
 
   const renderAns = (index) => {
     let testAns;
-    console.log(`index: ${index}`);
-
     testAns = allAnswers[index];
     let userPoints = test[index].allPts;
     let userAnswer = test[index].badAns;
