@@ -1,0 +1,27 @@
+.auth-title {
+  color: #7d64ff;
+  font-family: Montserrat-ExtraBold;
+  border-bottom: 3px solid #57FFB3;
+  font-size: 1.25rem;
+  margin: 1px auto;
+}
+.authentication__header {
+  color: gainsboro;
+  text-align: center;
+}
+
+.authentication {
+  width: 90%;
+  max-width: 33rem;
+  margin: 1rem auto;
+  text-align: center;
+  box-shadow: 2px 4px 6px gainsboro;
+}
+
+.authentication form {
+  margin-bottom: 1rem;
+}
+.auth-view {
+  min-height: 100vh;
+  padding: 10% 0;
+}

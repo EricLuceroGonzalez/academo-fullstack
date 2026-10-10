@@ -1,0 +1,76 @@
+.mymodal {
+  z-index: 1000;
+  max-height: 95%;
+  max-width:90%;
+  min-width: 85%;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 8px;
+  font-family: Montserrat-Bold;
+  overflow-y: auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: loadModal 0.7s ease-in 1;
+}
+ 
+.modal__header {
+  width: 100%;
+  padding: 0.5rem 0.25rem;
+  /* background: #0411a3; */
+  color: #7070eb;
+  font-size: 1.25rem;
+}
+.modal__content {
+  border-top: 2px solid #7d64ff;
+  padding: 0.75rem 0.5rem;
+  overflow-y: auto;
+}
+
+.modal__footer {
+  margin-top: 5px;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  .modal {
+    left: calc(50% - 5rem);
+    width: 40rem;
+  }
+}
+
+.modal-enter {
+  transform: translateY(-10rem);
+  opacity: 0;
+}
+
+.modal-enter-active {
+  transform: translateY(0);
+  opacity: 1;
+  transition: all 200ms;
+}
+
+.modal-exit {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.modal-exit-active {
+  transform: translateY(-10rem);
+  opacity: 0;
+  transition: all 200ms;
+}
+
+
+
+@keyframes loadModal{
+  0%{
+    opacity: 0;
+  }
+  80%{
+    opacity: 1;
+  }
+
+}

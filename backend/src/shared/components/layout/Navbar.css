@@ -1,0 +1,39 @@
+.navbarLogo{
+  max-height: 40px;
+}
+
+.navThing {
+  font-family: Montserrat-ExtraBold;
+  color: var(--color-fg);
+}
+
+.nav-username{
+  color: var(--color-fg);
+}
+.navThing:hover {
+  color: var(--color-hover);
+  text-decoration: none;
+}
+
+.link-text {
+  font-size: 0.75em;
+}
+
+.activeNavLink {
+  /* color: rgba(116, 35, 153, 0.6); */
+  border-bottom: 1px solid var(--color-fg);
+}
+
+.user-text {
+  color: #38dfb1;
+}
+
+.exit-text {
+  color: var(--color-green);
+  font-size: 0.65em;
+  cursor: pointer;
+}
+
+.icon-color {
+  color: rgb(15, 50, 240);
+}

@@ -1,0 +1,50 @@
+.footer-basic{
+    height:46px;
+    color:white;
+    background:#7d64ff;
+    position:fixed;
+    bottom:0px;
+    font-size:0.25em;
+    padding:4px 12px;
+    width: 100%;
+    font-family:Montserrat-Bold;
+}
+.footerAltText{
+    color: var(--color-peach);
+}
+.footer-brand{
+    font-size: 0.95rem;
+    border-right: 4px solid #38dfb1;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .footerTextB{
+        margin: auto 0;
+        font-size: 0.5rem;
+    }
+  }
+
+  @media only screen and (min-width: 600px) {
+    .footerTextB{
+        margin: auto 0;
+        font-size: 0.66rem;
+    }
+  }
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-icon{
+font-size: 0.5rem;
+margin-left: 2px;
+color: #38dfb1;
+}
